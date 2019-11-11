@@ -12,7 +12,9 @@
 }
 
 body {
-    font-family: 'McLaren', cursive;  /*New Google Font*/
+    /**********New Google Font*****************/
+    font-family: 'McLaren', cursive;  /**********New Google Font*****************/
+    /**********New Google Font*****************/
     color:   black;
     margin: 0;
     padding: 0;
@@ -242,20 +244,32 @@ margin-left: -5%;
 
 .name {
     float: left;
-    margin-left: 30px;
+    margin-left: 35px;
     margin-top: -5px;
 
 }
 .header-wrapper {
    position: relative;
+   padding-bottom: 30%;
 
 }
 .top-nav {
  float: right;
+ margin-right: 10px;
+
+}
+.profile-img {
+    position:absolute;
+    bottom: 5%;
+    right: -1%;
 
 }
 
+.greeting {
+    position: absolute;
+    top: 20%;
 
+}
 .portfolio-wrapper {
    position: relative;
    margin-bottom: 40%;
