@@ -62,11 +62,17 @@ a:hover {
 
     padding: 15px;
     width: 100%;
+    max-width: 100%
+
 }
 
 p {
     padding: 0 20px 0 20px;
     font-size: 1.5rem;
+
+}
+.portfolio-wrapper {
+    margin: auto;
 
 }
 
@@ -75,10 +81,7 @@ p {
 
 }
 
-#profile-img {
 
-    margin-top: 30px;
-}
 .contact-wrapper {
     padding: 0 20px;
     background-color: #F0F8FF;
@@ -107,8 +110,8 @@ padding-bottom: 120px;
 .btt {
     float: right;
     text-decoration: none;
-    font-size: 1.3rem;
-    margin: 20px 15px 0 0;
+    font-size: 1rem;
+    margin: 30px 15px 0 0;
 
 }
 /* ******************************************* */
@@ -273,6 +276,7 @@ margin-left: -5%;
 .portfolio-wrapper {
    position: relative;
    margin-bottom: 40%;
+   
 }
 .portfolio-wrapper h2 {
     margin-top: 0;
